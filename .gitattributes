@@ -1,0 +1,6 @@
+# Scripts do Windows: manter CRLF (e o BOM do .ps1) exatamente como estao,
+# inclusive no "Download ZIP" do GitHub. .bat com LF pode falhar no cmd.
+*.bat -text
+*.ps1 -text
+*.ico binary
+*.pdf binary

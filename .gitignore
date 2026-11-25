@@ -1,0 +1,13 @@
+# Backups e planilhas exportadas contêm dados de vendas: nunca enviar ao GitHub
+backup-caixa-*.json
+vendas-*.csv
+
+# Configurações locais de editor / ferramentas
+.claude/
+.vscode/
+.idea/
+
+# Sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
